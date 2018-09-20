@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "intranet", "intranet", "{3696FF11-DDD3-4D51-BDE1-EE62E786CE38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "business", "business", "{FDB4DC21-789E-4030-BDC6-1F3760BE6C88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E70F91A-2000-45ED-9A59-A14987704F93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{294D4530-A069-47BC-88A9-649565027E1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{5CF22994-28AF-4EF8-AB9F-46FEA075CB4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessQueryApi", "BusinessQueryApi\BusinessQueryApi.csproj", "{40D71BCA-2257-48C3-AB0D-A5E7D6B6CA32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexibleSQLProvider", "FlexibleSQLProvider\FlexibleSQLProvider.csproj", "{09FBAE17-B3C5-4E97-A24E-6EABB1792D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40D71BCA-2257-48C3-AB0D-A5E7D6B6CA32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40D71BCA-2257-48C3-AB0D-A5E7D6B6CA32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40D71BCA-2257-48C3-AB0D-A5E7D6B6CA32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40D71BCA-2257-48C3-AB0D-A5E7D6B6CA32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09FBAE17-B3C5-4E97-A24E-6EABB1792D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09FBAE17-B3C5-4E97-A24E-6EABB1792D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09FBAE17-B3C5-4E97-A24E-6EABB1792D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09FBAE17-B3C5-4E97-A24E-6EABB1792D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E70F91A-2000-45ED-9A59-A14987704F93} = {FDB4DC21-789E-4030-BDC6-1F3760BE6C88}
+		{294D4530-A069-47BC-88A9-649565027E1E} = {3E70F91A-2000-45ED-9A59-A14987704F93}
+		{5CF22994-28AF-4EF8-AB9F-46FEA075CB4B} = {3E70F91A-2000-45ED-9A59-A14987704F93}
+		{40D71BCA-2257-48C3-AB0D-A5E7D6B6CA32} = {294D4530-A069-47BC-88A9-649565027E1E}
+		{09FBAE17-B3C5-4E97-A24E-6EABB1792D5B} = {5CF22994-28AF-4EF8-AB9F-46FEA075CB4B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12375F48-CBA0-47A9-88DE-2D96D55CC65A}
+	EndGlobalSection
+EndGlobal
